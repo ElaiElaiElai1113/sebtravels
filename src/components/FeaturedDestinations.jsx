@@ -113,7 +113,7 @@ const FeaturedDestinations = () => {
 
   const destinations = [
     {
-      imageSrc: "/assets/danang.jpg",
+      imageSrc: "danang.jpg",
       altText: "Golden Bridge, Danang",
       title: "Danang, Vietnam",
       description:

@@ -327,9 +327,7 @@ const AvailabilityTracker = () => {
   return (
     <section id="availability-tracker" className="py-5 bg-white">
       <div className="container px-4 px-md-5">
-        <h2 className="display-5 fw-bold text-center mb-4">
-          EBIYAHE GROUP TOUR 2025
-        </h2>
+        <h2 className="display-5 fw-bold text-center mb-4">GROUP TOUR 2025</h2>
 
         <p className="text-center text-muted mb-5">
           Find your next adventure with our available charter flights to Danang!
@@ -388,8 +386,7 @@ const AvailabilityTracker = () => {
         </Accordion>
 
         <div className="text-center text-muted mt-5">
-          <p className="mb-0">REMARKS</p>
-          <p>RATES ARE SUBJECT TO CHANGE WITHOUT PRIOR NOTICE</p>
+          <p className="mb-0">CONTACT US FOR MORE INFORMATION</p>
         </div>
       </div>
     </section>
