@@ -1,14 +1,11 @@
-// src/components/FeaturedDestinations.js
 import React, { useState } from "react";
 import { Modal, Button, Table, Accordion } from "react-bootstrap";
 import DestinationCard from "./DestinationCard";
-import { tourData } from "./AvailabilityTracker"; // Import the tourData
+import { tourData } from "./AvailabilityTracker";
 
-// Reusable Tour Modal component
 const TourModal = ({ show, handleClose, tourGroup }) => {
   if (!tourGroup) return null;
 
-  // Filter out tours with 0 or less slots, or "FULLY BOOKED" status
   const availableTours = tourGroup.details.filter(
     (tour) => tour.slots > 0 && tour.status !== "FULLY BOOKED"
   );
@@ -116,7 +113,7 @@ const FeaturedDestinations = () => {
 
   const destinations = [
     {
-      imageSrc: "src/assets/danang.jpg",
+      imageSrc: "public/assets/danang.jpg",
       altText: "Golden Bridge, Danang",
       title: "Danang, Vietnam",
       description:

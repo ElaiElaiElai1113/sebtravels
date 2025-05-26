@@ -6,7 +6,7 @@ const HeroSection = () => {
       id="home"
       className="position-relative d-flex align-items-center justify-content-center text-center vh-100 bg-cover bg-center"
       style={{
-        backgroundImage: `url('src/assets/background.jpg')`,
+        backgroundImage: `url('public/assets/background.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
