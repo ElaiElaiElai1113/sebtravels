@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top header-custom-border-bottom ${
+      className={`navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top header-custom-border-bottom header-rounded-bottom ${
         isVisible ? "header-show" : "header-hide"
       }`}
     >

@@ -2,7 +2,6 @@
   "name": "sebtravels",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://elaielaielai1113.github.io/sebtravels/",
   "type": "module",
   "scripts": {
     "dev": "vite",

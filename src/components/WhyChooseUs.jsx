@@ -2,7 +2,6 @@ import React from "react";
 
 const WhyChooseUs = () => {
   return (
-    // Keep 'bg-primary' for the background color
     <section id="about" className="py-5 bg-secondary">
       <div className="container px-4 px-md-5 text-center">
         <h2 className="display-5 fw-bold mb-5 text-white">
