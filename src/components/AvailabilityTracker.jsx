@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { Table, Button, Accordion } from "react-bootstrap";
-import { tourData } from "../data/tourData";
+import { tourData } from "../data/TourData";
 
 const AvailabilityTracker = ({ selectedCountry, onCountryFilterChange }) => {
   const uniqueCountries = useMemo(() => {
